@@ -1,0 +1,22 @@
+{
+    "name": "onilab/module-mjml",
+    "description": "Add MJML support to Magento emails",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "artzwinger@gmail.com",
+            "name": "Art Zwinger"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Onilab\\MJML\\": ""
+        }
+    }
+}

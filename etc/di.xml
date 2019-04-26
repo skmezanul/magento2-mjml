@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Email\Model\Template">
+        <plugin disabled="false" name="Onilab_MJML_Plugin_Magento_Email_Model_Template" sortOrder="10"
+                type="Onilab\MJML\Plugin\Magento\Email\Model\Template"/>
+    </type>
+    <type name="Magento\Newsletter\Model\Template">
+        <plugin disabled="false" name="Onilab_MJML_Plugin_Magento_Newsletter_Model_Template" sortOrder="10"
+                type="Onilab\MJML\Plugin\Magento\Newsletter\Model\Template"/>
+    </type>
+</config>
